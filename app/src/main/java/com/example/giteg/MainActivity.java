@@ -1,7 +1,6 @@
 package com.example.giteg;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -20,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         pressButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this,"Hello ",Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this,"Hello Tariq",Toast.LENGTH_SHORT).show();
             }
         });
     }
